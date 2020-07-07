@@ -3,6 +3,7 @@ Clone Laravel & React boilerplate..
 1)  $ npm install 
 	$ composer install (vendor)
 	$ cp .env.example .env
+	$ php artisan key:generate
 	$ php artisan serve
 2)  $ npm run watch or npm run dev
 3) Happy Coding :)
