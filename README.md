@@ -1,4 +1,4 @@
-# Laravel & React boilerplate..
+# Laravel & React boilerplate
 
 ## Project setup
 Install node_modules.
@@ -34,7 +34,7 @@ Happy Coding :)
 
 Compiles and minifies for production
 ```
-npm run prod or $ npm run production (build your site)
+npm run prod or npm run production (build your site)
 ```
 
 After build your site then Remove 
