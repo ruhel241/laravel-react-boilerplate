@@ -1,20 +1,41 @@
-Clone Laravel & React boilerplate..
+# Clone Laravel & React boilerplate..
 
-1)  $ npm install 
-	$ composer install (vendor)
-	$ cp .env.example .env
-	$ php artisan key:generate
-	$ php artisan serve
-2)  $ npm run watch or npm run dev
-3) Happy Coding :)
+## Project setup
+```
+	npm install
+```
 
-4) $ npm run prod or $ npm run production (build your site)
+```
+	composer install
+```
+```
+	cp .env.example .env
+```
+```
+	php artisan key:generate
+```
+``` 
+	php artisan serve
+```
 
-5) Remove node_modules, package-lock.json
-6) Remove js, sass in resources folder
+``` 
+	npm run watch or npm run dev
+```
+ Happy Coding :)
 
 
-Or Menually set Laravel & React Documentation
+```
+  npm run prod or $ npm run production (build your site)
+```
+```
+  Remove node_modules, package-lock.json
+```
+```
+  Remove js, sass in resources folder
+```
+
+
+## Or Menually set Laravel & React Documentation
 
 1) install laravel project 
 	Command: $ composer create-project --prefer-dist laravel/laravel myProject
