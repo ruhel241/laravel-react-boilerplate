@@ -1,37 +1,49 @@
-# Clone Laravel & React boilerplate..
+# Laravel & React boilerplate..
 
 ## Project setup
+Install node_modules.
 ```
-	npm install
+npm install
 ```
 
+Install Laravel Composer in your project folder, command in your terminal. 
 ```
-	composer install
+composer install
 ```
+
+Create .env file just command in your terminal:
 ```
 	cp .env.example .env
 ```
+
+Laravel key:Generate in your project
 ```
 	php artisan key:generate
 ```
+Navigate your project then command in your terminal:
 ``` 
 	php artisan serve
 ```
 
+Compiles and reloads for development
 ``` 
 	npm run watch or npm run dev
 ```
- Happy Coding :)
+Happy Coding :)
 
 
+Compiles and minifies for production
 ```
   npm run prod or $ npm run production (build your site)
 ```
+
+After build your site then Remove 
 ```
-  Remove node_modules, package-lock.json
-```
-```
-  Remove js, sass in resources folder
+  * node_modules,
+  * package-lock.json,
+  * js folder in your resources folder, 
+  * sass folder in your resources folder
+  
 ```
 
 
