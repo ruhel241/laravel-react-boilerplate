@@ -13,28 +13,28 @@ composer install
 
 Create .env file just command in your terminal:
 ```
-	cp .env.example .env
+cp .env.example .env
 ```
 
 Laravel key:Generate in your project
 ```
-	php artisan key:generate
+php artisan key:generate
 ```
 Navigate your project then command in your terminal:
 ``` 
-	php artisan serve
+php artisan serve
 ```
 
 Compiles and reloads for development
 ``` 
-	npm run watch or npm run dev
+npm run watch or npm run dev
 ```
 Happy Coding :)
 
 
 Compiles and minifies for production
 ```
-  npm run prod or $ npm run production (build your site)
+npm run prod or $ npm run production (build your site)
 ```
 
 After build your site then Remove 
@@ -43,50 +43,74 @@ After build your site then Remove
   * package-lock.json,
   * js folder in your resources folder, 
   * sass folder in your resources folder
-  
+
 ```
 
 
-## Or Menually set Laravel & React Documentation
+# Or Menually set Laravel & React Documentation
 
-1) install laravel project 
-	Command: $ composer create-project --prefer-dist laravel/laravel myProject
+## Installation Laravel
+Install Laravel Project
+```  
+composer create-project --prefer-dist laravel/laravel myProject
+```
 
-2) Command: $ cd myProject 
-			$ php artisan serve
-  Check laravel properly install, you can show your browser.
-
-3) Install React 
-  Command: $ composer require laravel/ui
-
-  			"npm install && npm run dev" to compile your fresh scaffolding.
-			$ npm install or npm i
-			$ npm run dev
-
-			// Generate basic scaffolding...
-			$ php artisan ui react
-
-			// Generate login / registration scaffolding...
-			$ php artisan ui react --auth
-
-	check myProject folder, go to resources folder then you can see coponents folder and files..
-
-4) Command: $ npm install
-
-5) Command: $ npm run dev
+Navigate your project
+``` 
+* cd myProject 
+* php artisan serve
+```
+Check laravel properly install, you can show your browser.
 
 
+## Installation React 
 
-6) set <div id="example"></div> in your welcome.blade.php body
+Navigate your project then command in your terminal:
+``` 
+composer require laravel/ui
+``` 
 
-7) load script <script src="/js/app.js"></script> 
+npm install && npm run dev to compile your fresh scaffolding 
+```	
+npm install or npm i
 
-8) load CSS <link href="/css/app.css" rel="stylesheet">
+npm run dev
+```
 
-9) You can see your browser, there is Loading React Component 
+Generate basic scaffolding...
+```	
+php artisan ui react
+```	
 
-10) Command: $ cd myProject 
-			 $ php artisan serve
-			 $ npm run watch or npm run dev
+Generate login / registration scaffolding...
+```	
+php artisan ui react --auth
+```	
 
-11) Happy Laravel & React Coding :-)
+Check your myProject folder, go to resources folder then you can see coponents folder and files..
+
+Compiles and reloads for development
+```	 
+npm install
+
+npm run dev
+```	
+
+### React integrate in your laravel blade file
+
+```
+ * set <div id="example"></div> in your welcome.blade.php body
+ * load script <script src="/js/app.js"></script> 
+ * load CSS <link href="/css/app.css" rel="stylesheet">
+ * You can see your browser, there is Loading React Component 
+
+```
+
+Navigate your project then command in your terminal:
+```
+cd myProject 
+php artisan serve
+npm run watch or npm run dev
+```
+
+Happy Laravel & React Coding :-)
