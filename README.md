@@ -87,7 +87,7 @@ Generate login / registration scaffolding...
 php artisan ui react --auth
 ```	
 
-Check your myProject folder, go to resources folder then you can see coponents folder and files..
+Check your myProject folder, go to resources folder then you can see components folder and files..
 
 Compiles and reloads for development
 ```	 
