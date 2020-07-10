@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400">
-  <img src="https://quantizd.com/wp-content/uploads/2018/04/laravel-react.png" width="120">
+ <img src="https://quantizd.com/wp-content/uploads/2018/04/laravel-react.png" width="400">
 </p>
 
 # Laravel & React boilerplate
